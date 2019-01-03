@@ -1,0 +1,161 @@
+body{
+	position: relative;
+	top: 20px;
+	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+	background-color:rgb(71, 71, 70);
+}
+
+.photo{
+	width: 100px;
+}
+
+.head_text {
+    position: relative;
+    color: rgb(61, 60, 60);
+    font-size: 40px;
+    top: -16px;
+    left: 0px;
+}
+
+
+.p1{
+	color:darkgray;
+	font-size: 10px;
+}
+
+.main{
+	align-content: center;
+	margin:auto;
+	background-color:rgb(248, 251, 255);
+	padding:0px 5px;
+	height:400px;
+	width:400px;
+	border-radius:15px;
+}
+
+.button{
+	position:relative;
+	cursor: pointer;
+	top:-25px;
+	left: 0px;
+	background-color:rgb(27, 209, 255);
+	border-radius: 3px;
+	color: white;
+	padding:15px 50px;
+	display:block;
+	width:342px;
+}
+
+.text{
+	border:1px solid darkgray;
+	background-color: rgb(248, 251, 255);
+	height:44px;
+	width:328px;
+	position: relative;
+	top:10px;
+	padding-left: 10px;
+}
+
+.texts{
+	border:none;
+	position:relative;
+	top:-25px;
+	height:44px;
+	width:340px;
+	background-color: rgb(248, 251, 255);
+	color: rgb(61, 60, 60);
+}
+
+.t2{
+	position: relative;
+	top:-10px;
+}
+
+.pic{
+	position: relative;
+	top:5px;
+	right:2px;
+	width: 25px;
+}
+
+.last1{
+	position: relative;
+	color:darkgray;
+	top:2px;
+	left: -50px;
+}
+
+.last2{
+	position: relative;
+	color:rgb(27, 209, 255);
+	top:2px;
+	font-weight:bold;
+	left: -50px;
+}
+
+.forget-login{
+	position: relative;
+	top: -30px;
+	left: 110px;
+	color: rgb(27, 209, 255);
+}
+
+#socialtext{
+	position:relative;
+	top:15px;
+}
+
+.label{
+	color: darkgray;
+	position: relative;
+    left: -120px;
+    transition: all .3s;
+    pointer-events: none;
+}
+
+.label1{
+	left: -110px;;
+    top: -25px;
+}
+
+.label2{
+	position: relative;
+	top: -42px;
+}
+
+.spc{
+	position: relative;
+}
+
+.fas{
+	position: relative;
+	top: 12px;
+	left: 5px;
+}
+
+.fab{
+	position: relative;
+	top:-9px;
+}
+
+.texts input:valid ~ label {
+	background-color:white;
+	top:-48px;
+	left:5px;
+	font-size:10px;
+}
+
+.texts input:focus ~ label {
+	background-color:white;
+	top:-48px;
+	left:-5px;
+	font-size:10px;
+}
+
+.t2 input:valid ~ label{
+	top:-67px;
+}
+
+.t2 input:focus ~ label{
+	top:-67px;
+}

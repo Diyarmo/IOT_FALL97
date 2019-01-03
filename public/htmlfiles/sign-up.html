@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/"
+	 crossorigin="anonymous">
+	<link rel="stylesheet" href="../stylesheets/sign-up.css">
+	<link href="https://fonts.googleapis.com/css?family=Indie+Flower" rel="stylesheet">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU"
+	 crossorigin="anonymous">
+
+	 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/alertifyjs@1.11.2/build/css/alertify.min.css"/>
+
+	<title>IOT SIGN UP</title>
+</head>
+
+<body>
+	<div class="main" id="myMain" align="center">
+		<i class="fab fa-jira"></i>
+		<p class="head_text">Sign Up</p>
+
+		<div class="top">
+			<form>
+				<div class="texts t1">
+					<input class="text js-groupname" type="text" id="group" required /> <br>
+					<label class="label label1" for="group">GroupName</label>
+				</div>
+				<div class="texts t2">
+					<input class="text js-password" type="password" id="pass" required /> <br> <br>
+					<label class="label label2" for="pass">Password</label>
+				</div>
+				<div class="texts t2 t3">
+					<input class="text js-re-password" type="password" id="pass" required /> <br> <br>
+					<label class="label label3" for="pass">Repeat Password</label>
+				</div>
+				<br>
+				<div class="users">
+						<button type="button" class="name" onclick="textBoxCreate()">Add Users +</button>
+						<p id="myForm"></p>
+				</div>
+
+				<br><br>
+				<button type="button" class="button js-button" onclick=" Sign_Up()"> SIGN UP </button>
+			</form>
+			<br>
+				<a href="../htmlfiles/sign-in.html" class="want-login">Do you want Login?</a>
+			</br>
+		</div>
+	</div>
+
+
+
+</body>
+
+</html>
+<script src="../javascripts/sign up.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/alertifyjs@1.11.2/build/alertify.min.js"></script>
