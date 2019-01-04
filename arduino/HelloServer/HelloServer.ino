@@ -15,8 +15,8 @@ float RS_air; //  Get the value of RS via in a clear air
 float R0;  // Get the value of R0 via in H2
 float sensorValue;
 
-const char* ssid = "alireza";
-//const char* password = "13781999";
+const char* ssid = "PrinCeSs's iPhone";
+const char* password = "ssz3089776";
 
 int status = WL_IDLE_STATUS;
 WiFiClient client;
