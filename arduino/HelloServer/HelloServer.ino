@@ -27,11 +27,11 @@ const int red_led = 16;
 const int trigPin = 5;
 const int echoPin = 4;
 
-unsigned long channel_number = 656148;
+unsigned long channel_number = 667501;
 unsigned channel_field_temp = 1;
 unsigned channel_field_dist = 2;
 unsigned channel_field_gass = 3;
-const char channel_write_APIKey[] = "K971XFS6VN27OBCN";
+const char channel_write_APIKey[] = "R34875JZ1OZCSB42";
 
 // -----------------------------------------------------------
 
