@@ -7,8 +7,8 @@ var bodyParser = require('body-parser');
 var jsonParser = bodyParser.json();
 var urlencodedParser = bodyParser.urlencoded({ extended: false });
 const PORT = process.env.PORT || 5000;
-//app.use(express.static(path.join(__dirname, '/')));
-app.use(express.static(path.join(__dirname, 'public')));
+app.use(express.static(path.join(__dirname, '/')));
+app.use(express.static(path.join(__dirname, '/public')));
 
 app.get('/', jsonParser, function(req, res){
   var token = req.headers.cookie;
