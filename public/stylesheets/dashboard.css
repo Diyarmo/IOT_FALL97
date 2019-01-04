@@ -13,13 +13,12 @@
 	body {
 	    min-height: 100vh;
 	    font-family: 'Open Sans', sans-serif;
-	    background: #717170;
-
+	    background: #42a9f4;
 	    display: flex;
 	}
 
 	aside {
-	    width: 65px;
+	    width: 200px;
 	    background: #fff;
 	    text-align: center; 
 	    padding: 20px 0;
@@ -66,11 +65,22 @@
 
 	main {
 		text-align: center;
-		align: center;
+		/*align: center;*/
 	}
 
 	iframe {
+		padding: 25px 25px 25px 25px;
+		margin:  25px 25px 25px 25px;
+	}
 
+	h3 {
+		text-align: right;
+		direction: rtl;
+	}
+
+	h2 {
+		text-align: center;
+		border-top-style: groove;
 	}
 
 	.notification {
@@ -92,3 +102,4 @@
 	.user-info span {
 	    padding: 0 20px 0 5px;
 	}
+
